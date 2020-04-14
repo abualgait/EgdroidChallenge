@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ViewTransformationAnimation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".IncomeDetailsActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

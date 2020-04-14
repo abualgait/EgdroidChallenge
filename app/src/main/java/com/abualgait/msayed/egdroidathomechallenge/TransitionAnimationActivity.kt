@@ -7,7 +7,7 @@ import androidx.cardview.widget.CardView
 import androidx.core.animation.doOnEnd
 import androidx.core.app.ActivityOptionsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.activity_view_transformation_animation.*
+import kotlinx.android.synthetic.main.activity_view_transitions.*
 
 class TransitionAnimationActivity : BaseActivity() {
 
@@ -84,7 +84,7 @@ class TransitionAnimationActivity : BaseActivity() {
     private lateinit var mAdapter: AdapterIncome
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_view_transformation_animation)
+        setContentView(R.layout.activity_view_transitions)
         mAdapter = AdapterIncome(this, items) { income, view ->
 
             //scaleDownAnimation

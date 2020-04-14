@@ -5,8 +5,11 @@ import android.animation.ValueAnimator
 import android.content.Context
 import android.content.res.Resources
 import android.graphics.Point
+import android.util.Log
 import android.view.View
 import android.view.WindowManager
+import java.text.SimpleDateFormat
+import java.util.*
 
 val Int.dp: Int
     get() = (this / Resources.getSystem().displayMetrics.density).toInt()
@@ -54,19 +57,4 @@ fun getValueAnimator(
     return a
 }
 
-fun getNormalValueAnimator(
-    forward: Boolean = true,
-    duration: Long,
-    delay: Long,
-    interpolator: TimeInterpolator,
-    updateListener: (progress: Float) -> Unit
-): ValueAnimator {
-    val a =
-        if (forward) ValueAnimator.ofFloat(0f, 1f)
-        else ValueAnimator.ofFloat(1f, 0f)
-    a.addUpdateListener { updateListener(it.animatedValue as Float) }
-    a.duration = duration
-    a.startDelay = delay
-    a.interpolator = interpolator
-    return a
-}
+val timeNow = SimpleDateFormat("hh:mm a", Locale.US).format(Date())

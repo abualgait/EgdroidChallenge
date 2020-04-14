@@ -33,6 +33,9 @@ class MainActivity : BaseActivity(), View.OnClickListener {
             }
 
             R.id.view_transformation_animation -> {
+                Intent(this, ViewTransformationAnimation::class.java).apply {
+                    startActivity(this)
+                }
 
             }
         }

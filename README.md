@@ -12,10 +12,14 @@ challenge series begin with custom animation.
 * [view transformation animation](https://i.stack.imgur.com/PB5UT.gif)
 * [transition animation](https://raw.githubusercontent.com/bitvale/DroidMotion/master/art/preview.gif)
 
-#### 1- SPLASH SCREEN ANIMATION
+#### 1️⃣ SPLASH SCREEN ANIMATION
 <img src="https://github.com/abualgait/EgdroidChallenge/blob/master/splah_screen_gif.gif" height="500">
 
-#### 2- TRANSITION ANIMATION
+#### 2️⃣ TRANSITION ANIMATION
 <img src="https://github.com/abualgait/EgdroidChallenge/blob/master/transition_animation_gif.gif" height="500">
 
- 
+#### 3️⃣ VIEW TRANSFORMATION
+<img src="https://github.com/abualgait/EgdroidChallenge/blob/master/view_tansformation_gif.gif" height="500">
+
+
+🌍 *GIFS are created with this awesome [website](https://animockup.com/)*

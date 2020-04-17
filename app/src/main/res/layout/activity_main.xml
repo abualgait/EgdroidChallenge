@@ -125,6 +125,35 @@
 
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view_pager_animations"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Display1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="4" />
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="view pager animations"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
     <Space
         android:layout_width="0dp"
         android:layout_height="0dp"

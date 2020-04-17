@@ -17,6 +17,7 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         splash_screen_animation.setOnClickListener(this)
         transition_animation.setOnClickListener(this)
         view_transformation_animation.setOnClickListener(this)
+        view_pager_animations.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -34,6 +35,13 @@ class MainActivity : BaseActivity(), View.OnClickListener {
 
             R.id.view_transformation_animation -> {
                 Intent(this, ViewTransformationAnimation::class.java).apply {
+                    startActivity(this)
+                }
+
+            }
+
+            R.id.view_pager_animations -> {
+                Intent(this, ShoeBoxes::class.java).apply {
                     startActivity(this)
                 }
 

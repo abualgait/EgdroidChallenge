@@ -12,11 +12,7 @@
         <activity
             android:name=".ShoeBoxes"
             android:theme="@style/AppTheme.FullScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".ViewTransformationAnimation"
@@ -31,7 +27,11 @@
             android:name=".SplashScreenAnimation"
             android:theme="@style/AppTheme.SplashScreen" />
         <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

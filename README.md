@@ -21,5 +21,8 @@ challenge series begin with custom animation.
 #### 3️⃣ VIEW TRANSFORMATION
 <img src="https://github.com/abualgait/EgdroidChallenge/blob/master/view_tansformation_gif.gif" height="500">
 
+#### 4️⃣ VIEW PROPERTY ANIMATION *[dribbble link](https://dribbble.com/shots/6673049--10-Shoe-Boxes-Swipe-Transition)*
+<img src="https://github.com/abualgait/EgdroidChallenge/blob/master/shoe%20boxes%20animation.gif" height="500">
+
 
 🌍 *GIFS are created with this awesome [website](https://animockup.com/)*

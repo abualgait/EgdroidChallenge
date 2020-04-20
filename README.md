@@ -1,4 +1,12 @@
 # EgdroidChallenge
+
+#### *Follow me on social media*
+
+* [github](https://github.com/abualgait) 
+* [linkedin](https://www.linkedin.com/in/abualgait)
+* [twitter](https://twitter.com/abualgaittwitt?s=09)
+* [facebook](https://m.facebook.com/abualgait)
+
 *💪 challenge accepted 💪*
 
 A challenge code series idea suggested by an awesome android community [Egdroid](https://www.linkedin.com/company/egdroid/)
